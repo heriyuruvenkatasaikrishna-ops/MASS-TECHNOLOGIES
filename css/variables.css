@@ -1,0 +1,60 @@
+/* Design System Tokens (Indigo/Teal Light Theme) */
+
+:root {
+  /* Fonts */
+  --font-primary: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
+
+  /* Global Color Tokens */
+  --bg-dark: hsl(210, 20%, 98%);
+  --bg-dark-rgb: 250, 251, 252;
+  
+  --surface-dark: hsl(0, 0%, 100%);
+  --surface-dark-rgb: 255, 255, 255;
+  
+  --surface-light: hsl(210, 20%, 95%);
+  --surface-light-rgb: 241, 243, 245;
+
+  --accent-primary: hsl(256, 85%, 55%);
+  --accent-primary-rgb: 99, 102, 241;
+  
+  --accent-secondary: hsl(175, 80%, 40%);
+  --accent-secondary-rgb: 13, 148, 136;
+  
+  --accent-glow: hsla(256, 85%, 55%, 0.08);
+  --accent-glow-secondary: hsla(175, 80%, 40%, 0.08);
+
+  /* Status Indicators */
+  --color-success: hsl(142, 70%, 40%);
+  --color-error: hsl(350, 80%, 50%);
+
+  /* Text Colors */
+  --text-primary: hsl(222, 28%, 14%);
+  --text-secondary: hsl(215, 16%, 42%);
+  --text-muted: hsl(215, 12%, 60%);
+
+  /* Borders & Shadows */
+  --border-color: hsla(215, 15%, 85%, 0.8);
+  --border-hover: hsla(256, 85%, 55%, 0.4);
+  --border-glow: 0 4px 20px hsla(256, 85%, 55%, 0.12);
+
+  /* Layout Presets */
+  --max-width: 1280px;
+  --header-height: 80px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-xl: 32px;
+
+  /* Standard Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Glass backdrop & elevation shadows */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(0, 0, 0, 0.06);
+  --glass-shadow: 0 8px 30px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
+  --glass-backdrop: blur(16px);
+}

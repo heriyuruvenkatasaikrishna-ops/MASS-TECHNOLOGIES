@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Custom Software Company Al Qusais Dubai | Mass Technologies</title>
+  <meta name="description" content="Get in touch with Mass Technologies Dubai. Suite #302, Al arzoo building, Al Qusais 2. Call +971 56 954 3544 or Email Info@masstechme.com for a free consultation.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- Premium Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="Logo.PNG" alt="Mass Technologies Logo" class="logo-img">
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">Company</a>
+        <a href="products.html" class="nav-link">Softwares</a>
+        <a href="services.html" class="nav-link">IT Services & Digital</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="contact.html" class="nav-cta">Start a Project</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle Menu" id="navToggleBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Subpage Hero -->
+  <section class="subpage-hero">
+    <div class="container reveal">
+      <span class="section-subtitle">Let's Connect</span>
+      <h1 class="subpage-hero-title">Start a Project Consultation</h1>
+      <p class="subpage-hero-desc">Have a software idea or office networking requirement? Message our Dubai-based engineering team for support and audits.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section layout -->
+  <section class="section">
+    <div class="container contact-layout">
+      <!-- Contact Info Details Column -->
+      <div class="contact-info-column reveal">
+        <span class="section-subtitle">Location & Phones</span>
+        <h3>Visit Our Offices</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Mass Technologies is located in the heart of Dubai's commercial district, serving clients across the UAE, Saudi Arabia, Qatar, Oman, and Kuwait.</p>
+
+        <!-- Location card -->
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+          </div>
+          <div class="contact-info-details">
+            <h4>Office Location</h4>
+            <p>Suite #302, Al arzoo building, 3rd floor - Al Qusais 2 - Dubai - United Arab Emirates</p>
+          </div>
+        </div>
+
+        <!-- Phones card -->
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.15 15.15 0 0 0 6.57 6.57l2.2-2.2c.28-.28.67-.36 1.01-.25 1.12.37 2.33.57 3.6.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.27.2 2.48.57 3.6.11.34.03.73-.25 1.01l-2.2 2.2z"/></svg>
+          </div>
+          <div class="contact-info-details">
+            <h4>Direct Lines</h4>
+            <p style="margin-bottom: 0.25rem;">Mobile: <a href="tel:+971569543544">+971 56 954 3544</a></p>
+            <p style="margin-bottom: 0.25rem;">Mobile: <a href="tel:+971504609694">+971 50 460 9694</a></p>
+            <p>Office landline: <a href="tel:+97145125760">+971 4 512 5760</a></p>
+          </div>
+        </div>
+
+        <!-- Emails card -->
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div class="contact-info-details">
+            <h4>Email Inquiries</h4>
+            <p><a href="mailto:Info@masstechme.com">Info@masstechme.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Interactive Form Column -->
+      <div class="contact-form-column reveal delay-2">
+        <!-- Success Message Backdrop -->
+        <div class="form-success-message" id="formSuccess">
+          <div class="success-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          </div>
+          <h3 style="font-size: 1.75rem; margin-bottom: 1rem;">Message Sent Successfully!</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 450px;">Thank you for contacting Mass Technologies. Our technical support manager will review your systems requirements and call you back within 2 business hours.</p>
+          <button type="button" class="btn btn-secondary" id="resetFormBtn">Send Another Message</button>
+        </div>
+
+        <span class="section-subtitle">Requirements Form</span>
+        <h3 style="font-size: 1.75rem; margin-bottom: 2rem;">Discuss Your Systems Details</h3>
+        
+        <form class="contact-form" id="contactForm">
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="formName" class="form-label">Full Name</label>
+              <input type="text" id="formName" class="form-control" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="formPhone" class="form-label">Mobile Number</label>
+              <input type="tel" id="formPhone" class="form-control" placeholder="+971 50 000 0000" required>
+            </div>
+          </div>
+
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="formEmail" class="form-label">Email Address</label>
+              <input type="email" id="formEmail" class="form-control" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="formSubject" class="form-label">Subject / Product Interest</label>
+              <select id="formSubject" class="form-control" style="background-image: none; cursor: pointer;" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="Auto Garage Software">Auto Garage Software</option>
+                <option value="Enterprise ERP System">Enterprise ERP System</option>
+                <option value="Real Estate ERP">Real Estate ERP</option>
+                <option value="MASS Accounting Software">MASS Accounting Software</option>
+                <option value="MASS HRMS & Payroll">MASS HRMS & Payroll</option>
+                <option value="Salon Management Tool">Salon Management Tool</option>
+                <option value="Web Application Development">Web Application Development</option>
+                <option value="SEO and Digital Marketing">SEO & Digital Marketing</option>
+                <option value="IT AMC Contracts">IT AMC Contracts</option>
+                <option value="Networking Solutions">Networking Solutions</option>
+                <option value="General Inquiry">General Inquiry</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="formMessage" class="form-label">Tell Us About Your Requirements</label>
+            <textarea id="formMessage" class="form-control" placeholder="Briefly describe your database system needs, number of users, or network support timeline..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 1rem; width: 100%;">
+            Send Consultation Message
+            <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Map Wrapper -->
+    <div class="container reveal">
+      <div class="map-wrapper">
+        <!-- Embed Google Map localizing Al Qusais, Dubai -->
+        <iframe src="https://www.google.com/maps/embed?pb=!15s0x3e5f5f7396c0d8d3:0x1b79f6eb3ad0ee4e!2zQWwgUXVzYWlzIDIgLSBEdWJhaSAtIEFyYWIgRW1pcmF0ZXM!5m2!1sen!2sae" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo logo">
+          <img src="Logo.PNG" alt="Mass Technologies Logo" class="logo-img logo-img-footer">
+        </a>
+        <p class="footer-desc">Mass Technologies is a trusted custom software company in Dubai, specializing in tailored ERP databases, accounting tools, and enterprise IT integrations across the GCC.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z M17.5 6.5h.01"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z M2 9h4v12H2z M4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer-nav-title">Softwares</h3>
+        <ul class="footer-links">
+          <li><a href="products.html" class="footer-link">Auto Garage ERP</a></li>
+          <li><a href="products.html" class="footer-link">Real Estate Software</a></li>
+          <li><a href="products.html" class="footer-link">Accounting Database</a></li>
+          <li><a href="products.html" class="footer-link">Enterprise ERP</a></li>
+          <li><a href="products.html" class="footer-link">HRMS & Payroll</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-nav-title">IT Services</h3>
+        <ul class="footer-links">
+          <li><a href="services.html" class="footer-link">Website Development</a></li>
+          <li><a href="services.html" class="footer-link">SEO Optimizations</a></li>
+          <li><a href="services.html" class="footer-link">Social Media Marketing</a></li>
+          <li><a href="services.html" class="footer-link">IT Annual Contracts</a></li>
+          <li><a href="services.html" class="footer-link">Network Deployments</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3 class="footer-nav-title">Contact & Updates</h3>
+        <div class="footer-contact-info">
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+            <span>Al Qusais 2, Dubai, UAE</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:Info@masstechme.com">Info@masstechme.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Mass Technologies LLC. All rights reserved.</p>
+      <p>Hand-crafted for Dubai Enterprise Growth</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
