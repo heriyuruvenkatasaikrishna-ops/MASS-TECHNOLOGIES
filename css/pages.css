@@ -948,6 +948,28 @@ textarea.form-control {
     justify-content: center;
   }
 
+  .hero-visual-inner {
+    width: 340px;
+    height: 340px;
+  }
+
+  .glow-sphere {
+    width: 280px;
+    height: 280px;
+  }
+
+  .subpage-hero {
+    padding: 7rem 0 3.5rem 0;
+  }
+
+  .subpage-hero-title {
+    font-size: 2.75rem;
+  }
+
+  .subpage-hero-desc {
+    font-size: 1.1rem;
+  }
+
   .solutions-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1016,6 +1038,10 @@ textarea.form-control {
   .contact-form-column {
     padding: 2.5rem;
   }
+
+  .map-wrapper {
+    margin-top: 3rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1038,6 +1064,58 @@ textarea.form-control {
 
   .product-features {
     grid-template-columns: 1fr;
+  }
+
+  .subpage-hero-title {
+    font-size: 2.25rem;
+  }
+
+  .solution-card {
+    padding: 2rem 1.25rem;
+  }
+
+  .product-item {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .mv-card {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .cta-card {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .cta-title {
+    font-size: 1.75rem;
+  }
+
+  .service-visual-col {
+    padding: 1.5rem;
+  }
+
+  .map-wrapper {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-visual-inner {
+    width: 290px;
+    height: 290px;
+  }
+
+  .glow-sphere {
+    width: 240px;
+    height: 240px;
+  }
+
+  .review-card {
+    padding: 1.5rem;
+  }
+
+  .contact-form-column {
+    padding: 2rem 1.25rem;
   }
 }
 
